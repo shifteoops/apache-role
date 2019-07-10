@@ -43,8 +43,8 @@ apache_mods_enabled:
   - rewrite.load
   - ssl.load
   - headers.load
-  - proxy
-  
+  - proxy.load
+
 apache_mods_disabled: []
 
 # Set initial apache state. Recommended values: `started` or `stopped`
